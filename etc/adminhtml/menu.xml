@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+		<add id="Wishusucess::zoom_module" title="Zoom" module="Wishusucess_ImageZoom" sortOrder="1" resource="Magento_Backend::content"  parent="Wishusucess::core_module" />
+
+		<add id="Wishusucess_ImageZoom::configuration" title="Zoom Config " module="Wishusucess_ImageZoom" sortOrder="1" resource="Wishusucess_ImageZoom::config" parent="Wishusucess::zoom_module" action="adminhtml/system_config/edit/section/wishusucess_imagezoom/"/>
+	</menu>
+</config>
